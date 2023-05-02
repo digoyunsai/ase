@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>WebCat</title>
+  </head>
+  <body>	
+	<h1>恭喜你突破了全部关卡</h1>
+	<p>下面是验证码，请截图发给作者(HYUI.帝国·元帅)</p> 
+   <script>
+   var a  ="QWERTYUIOPASDFGHJKLZXCVBNM1234567890"
+   var arr = a.split("")
+   var c =""
+   for(var i=0;i<6;i++){
+     var n = Math.floor(Math.random()*arr.length)
+     c += arr[n]
+     }
+   document.write(c);
+   </script>
+  </body>
+</html>
