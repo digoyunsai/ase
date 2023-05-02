@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>挑战</title>
+ <style>
+ body{text-align:center;
+   }
+  div{background:rgba(126,125,128,0.6);
+   text-align:center;
+   margin-top:25px;}
+ div:hover{background-color:red;
+   }
+ .a{margin-top:10px;}
+ </style>
+  </head>
+  <body>	
+	<h1>挺机灵嘛:</h1><h1>欢迎来到第二关。</h1>
+	<p onclick="a()">哪个是中文？</p>  
+ <div onclick="b()">A.Chinese</div>
+ <div class="a" onclick="c()">B.英文</div>
+ <script>
+ let i=1
+ function a(){
+ alert("早料到你会点这里,其实这里也没有用😃");
+ }
+function b(){
+i++
+if(i==2){
+  alert("恭喜你");
+alert("答错了")
+  }else if(i>2){
+  alert("答案错误");
+  }
+} 
+ function c(){
+     window.location.href="2.html";
+     }
+ </script>
+  </body>
+</html>
